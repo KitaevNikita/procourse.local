@@ -33,10 +33,11 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
-                    <ul class="navbar-nav me-auto">
+                    <ul class="navbar-nav me-auto w-100 justify-content-center">
                         <a class="nav-link" href="{{ route('cours.index') }}">Доступные курсы</a>
                         <a class="nav-link" href="{{ route('forms.index') }}">О нас</a>
                         <a class="nav-link" href="{{ route('otzs.index') }}">Отзывы</a>
+                        <a class="nav-link" href="{{ route('preims.index') }}">Преимущества</a>
                     </ul>
 
                     <!-- Right Side Of Navbar -->

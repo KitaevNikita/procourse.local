@@ -29,7 +29,7 @@
  <input type="text" class="form-control" id="cardNumber">
  </div>
  <div class="form-group" id="expiration-date">
- <label>Expiration Date</label>
+ <label>Срок годности</label>
  <select>
  <option value="01">Январь</option>
  <option value="02">Февраль </option>

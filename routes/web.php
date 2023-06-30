@@ -5,6 +5,7 @@ use App\Http\Controllers\FormController;
 use App\Http\Controllers\CourController;
 use App\Http\Controllers\OtzController;
 use App\Http\Controllers\ZakazController;
+use App\Http\Controllers\PreimController;
 
 
 /*
@@ -29,6 +30,8 @@ Route::resource('cours', CourController::class);
 Route::resource('otzs', OtzController::class);
 
 Route::resource('zakazs', ZakazController::class);
+
+Route::resource('preims', PreimController::class);
 
 Auth::routes();
 
