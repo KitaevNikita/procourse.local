@@ -26,7 +26,7 @@
                       <h5 class="card-title">Программа обучения:</h5>
                       <p class="card-text">Радужные вращения. Прокачка головы и сердца. - Медитация «Исцеление рода». - Доброй Вечности! Сделаем практики на открытие сердечного центра.</p>
                       <a class="btn btn-success btn-lg d-grid gap-2 col-6 mx-auto"
-                          href="#">
+                          href="{{ route('zakazs.index') }}">
                               Купить
                       </a>
                   </div>
@@ -40,7 +40,7 @@
                       <h5 class="card-title">Программа обучения:</h5>
                       <p class="card-text">Основы рисования животногою. Реалистичный женский портрет 3/4. - Реалистичный портрет анфас. Каждому участнику марафон в подарок</p>
                       <a class="btn btn-success btn-lg d-grid gap-2 col-6 mx-auto"
-                          href="#">
+                          href="{{ route('zakazs.index') }}">
                               Купить
                       </a>
                   </div>
@@ -54,9 +54,9 @@
                     <h5 class="card-title">Программа обучения:</h5>
                     <p class="card-text">Уход за кожей и подготовка к макияжу. Легкий и естественный макияж. - Макияж на каждый день и для вечера. - Смоки айз и стрелки</p>
                     <a class="btn btn-success btn-lg d-grid gap-2 col-6 mx-auto"
-                          href="#">
+                          href="{{ route('zakazs.index') }}">
                               Купить
-                    </a>
+                      </a>
                 </div>
             </div>
         </div>
@@ -68,7 +68,7 @@
                       <h5 class="card-title">Программа обучения:</h5>
                       <p class="card-text">Радужные вращения. Прокачка головы и сердца. - Медитация «Исцеление рода». - Доброй Вечности! Сделаем практики на открытие сердечного центра.</p>
                       <a class="btn btn-success btn-lg d-grid gap-2 col-6 mx-auto"
-                          href="#">
+                          href="{{ route('zakazs.index') }}">
                               Купить
                       </a>
                   </div>
@@ -81,8 +81,8 @@
                       <h3 class="card-title">CMM СПЕЦИАЛИСТ</h3>
                       <h5 class="card-title">Программа обучения:</h5>
                       <p class="card-text">Основы рисования животногою. Реалистичный женский портрет 3/4. - Реалистичный портрет анфас. Каждому участнику марафон в подарок</p>
-                      <a class="btn btn-success btn-lg d-grid gap-2 col-6 mx-auto"
-                      href="#">
+                      <<a class="btn btn-success btn-lg d-grid gap-2 col-6 mx-auto"
+                      href="{{ route('zakazs.index') }}">
                           Купить
                   </a>
                   </div>
@@ -96,7 +96,7 @@
                       <h5 class="card-title">Программа обучения:</h5>
                       <p class="card-text">Уход за кожей и подготовка к макияжу. Легкий и естественный макияж. - Макияж на каждый день и для вечера. - Смоки айз и стрелки</p>
                       <a class="btn btn-success btn-lg d-grid gap-2 col-6 mx-auto"
-                          href="#">
+                          href="{{ route('zakazs.index') }}">
                               Купить
                       </a>
                   </div>
@@ -110,7 +110,7 @@
                       <h5 class="card-title">Программа обучения:</h5>
                       <p class="card-text">Радужные вращения. Прокачка головы и сердца. - Медитация «Исцеление рода». - Доброй Вечности! Сделаем практики на открытие сердечного центра</p>
                       <a class="btn btn-success btn-lg d-grid gap-2 col-6 mx-auto"
-                          href="#">
+                          href="{{ route('zakazs.index') }}">
                               Купить
                       </a>
                   </div>
@@ -124,7 +124,7 @@
                       <h5 class="card-title">Программа обучения:</h5>
                       <p class="card-text">Основы рисования животногою. Реалистичный женский портрет 3/4. - Реалистичный портрет анфас. Каждому участнику марафон в подарок</p>
                       <a class="btn btn-success btn-lg d-grid gap-2 col-6 mx-auto"
-                          href="#">
+                          href="{{ route('zakazs.index') }}">
                               Купить
                       </a>
                   </div>
