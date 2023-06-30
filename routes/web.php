@@ -1,6 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\FormController;
+use App\Http\Controllers\CourController;
+use App\Http\Controllers\OtzController;
+use App\Http\Controllers\ZakazController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +21,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::resource('forms', FormController::class);
+
+Route::resource('cours', CourController::class);
+
+Route::resource('otzs', OtzController::class);
+
+Route::resource('zakazs', ZakazController::class);
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
